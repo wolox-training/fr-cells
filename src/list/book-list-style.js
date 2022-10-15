@@ -2,10 +2,10 @@ import { css } from "lit-element";
 
 export default css`
   :host {
+    background-color: #f4f4f4;
     display: block;
     font-family: Roboto;
     margin: 0px;
-    background-color: #f4f4f4;
   }
 
   .book-container {

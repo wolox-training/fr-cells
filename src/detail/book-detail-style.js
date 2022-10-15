@@ -3,12 +3,14 @@ import { css } from "lit-element";
 export default css`
   :host {
     background-color: #f4f4f4;
+    display: block;
     font-family: Roboto;
     margin: 0px;
   }
 
   .card {
     background-color: #fff;
+    border-radius: 5px;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.5);
     display: flex;
     height: 416px;
@@ -24,6 +26,7 @@ export default css`
   }
 
   .book-cover {
+    border-radius: 7px;
     height: 368px;
     width: 261px;
   }
