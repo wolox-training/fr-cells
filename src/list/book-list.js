@@ -8,15 +8,14 @@ class BookList extends LitElement {
 
   static get properties() {
     return {
-      books: { type: Array },
-      result: { type: Array },
+      books: { type: Object },
     };
   }
 
   constructor() {
     super();
     this.books = [];
-    this.placeholder = "Buscar por título del libro ...";
+    this.placeholder = "Buscar por título o autor del libro ...";
   }
 
   onclick(book) {
@@ -27,19 +26,15 @@ class BookList extends LitElement {
   }
 
   filterData() {
-    const imput = this.shadowRoot.querySelector("#imputSearch").value.toLowerCase();
-    const temporal = [];
+    const imput = this.shadowRoot
+      .querySelector("#imputSearch")
+      .value.toLowerCase();
 
-    this.books.map((book) => {
+    this.books = this.books.filter((book) => {
       const title = book.title.toLowerCase();
       const autor = book.autor.toLowerCase();
-
-      if (title.indexOf(imput) !== -1  || autor.indexOf(imput) !== -1) {
-        temporal.push({cover: book.cover,title: book.title,autor: book.autor,});
-      }
+      return title.indexOf(imput) !== -1 || autor.indexOf(imput) !== -1;
     });
-
-    this.books = temporal;
   }
 
   render() {
