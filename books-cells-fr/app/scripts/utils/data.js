@@ -1,0 +1,148 @@
+export default {
+  results: [
+    {
+      cover:
+        "https://i0.wp.com/xn--lacompaialibredebraavos-yhc.com/wp-content/uploads/2018/06/comprar_Fuego_y_Sangre_en_espa%C3%B1ol.jpg?w=1348&ssl=1",
+      title: "Fuego y Sangre",
+      autor: "George RR Martin",
+      editorial: "Debolsillo",
+      gender: "literatura fantástica",
+      year: "2021",
+    },
+    {
+      cover:
+        "https://images.cdn2.buscalibre.com/fit-in/360x360/58/cc/58cce335a364ed961fd7edb0ab9a2c75.jpg",
+      title: "IT (eso)",
+      autor: "Stephen King",
+      editorial: "Debolsillo",
+      gender: "Terror",
+      year: "2013",
+    },
+    {
+      cover:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-romeoyjulieta-1597086456.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      title: "Romeo y Julieta",
+      autor: "William Shakespeare",
+      editorial: "Debolsillo",
+      gender: "Clásicos",
+      year: "2003",
+    },
+    {
+      cover:
+        "https://centrogabo.org/sites/default/files/styles/860x550/public/x100_anos_172.jpg,qitok=_EwSiJG7.pagespeed.ic.xUHEr42Z4i.webp",
+      title: "Cien años de soledad",
+      autor: "Gabriel Garcia Marquez",
+      editorial: "Debolsillo",
+      gender: "Realismo mágico",
+      year: "2014",
+    },
+    {
+      cover:
+        "https://images.cdn3.buscalibre.com/fit-in/360x360/66/9a/669a0309e0eb66fdcb8aa0cd13c7896b.jpg",
+      title: "La Montaña Mágica",
+      autor: "Thomas Mann",
+      editorial: "Debolsillo",
+      gender: "Ficción Moderna",
+      year: "2021",
+    },
+    {
+      cover:
+        "https://www.infobae.com/new-resizer/XaeRz2QQsyknhymuguZVJamWAzY=/992x1488/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/03/28151206/Frankeinstein-2.jpg",
+      title: "Frankenstein",
+      autor: "Mary Shelley",
+      editorial: "Panamericana Pub Llc",
+      gender: "Ficción Clásica",
+      year: "2018",
+    },
+    {
+      cover:
+        "https://www.penguinlibros.com/co/1637531-large_default/danza-de-dragones.webp",
+      title: "Danza de Dragones",
+      autor: "George RR Martin",
+      editorial: "Debolsillo",
+      gender: "literatura fantástica",
+      year: "2016",
+    },
+    {
+      cover:
+        "https://images.cdn1.buscalibre.com/fit-in/360x360/3b/bd/3bbdd8c78ea78dd87a982d4b76bf2477.jpg",
+      title: "Hamlet",
+      autor: "William Shakespeare",
+      editorial: "Mestas Ediciones",
+      gender: "Clásicos",
+      year: "2015",
+    },
+    {
+      cover:
+        "https://forbes.es/wp-content/uploads/2018/04/05-el_principito.jpg",
+      title: "El Principito",
+      autor: "Antoine de Saint-Exupéry",
+      editorial: "Emecé",
+      gender: "Infantiles",
+      year: "2012",
+    },
+    {
+      cover:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/campana-cristal-1524221024.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      title: "La campana de cristal",
+      autor: "Sylvia Plath",
+      editorial: "Literatura Random House",
+      gender: "Ficción Moderna",
+      year: "2019",
+    },
+    {
+      cover:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lolita-1524221029.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      title: "Lolita",
+      autor: "Vladimir Nabokov",
+      editorial: "Anagrama",
+      gender: "Ficción Moderna",
+      year: "2018",
+    },
+    {
+      cover:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-mejores-libros-dracula-1636108922.jpeg?crop=1xw:1xh;center,top&resize=980:*",
+      title: "Drácula",
+      autor: "Bram Stoker",
+      editorial: "Mestas Ediciones",
+      gender: "Clásicos",
+      year: "2016",
+    },
+    {
+      cover:
+        "https://images.cdn1.buscalibre.com/fit-in/360x360/e7/bd/e7bd4f48ef85a5299c80abbf54b2d22e.jpg",
+      title: "1984",
+      autor: "George Orwell",
+      editorial: "Skla",
+      gender: "Ficción Literaria",
+      year: "2000",
+    },
+    {
+      cover:
+        "https://images.cdn1.buscalibre.com/fit-in/360x360/0a/2c/0a2cee31d416d14bc544c3434570a782.jpg",
+      title: "Un mundo feliz",
+      autor: "Aldous Huxley",
+      editorial: "Debolsillo",
+      gender: "Ficción Literaria",
+      year: "2013",
+    },
+    {
+      cover:
+        "https://images.cdn2.buscalibre.com/fit-in/360x360/69/73/697367de2a03bc98c4cb963d35ae2af2.jpg",
+      title: "Orgullo y prejuicio",
+      autor: "Jane Austen",
+      editorial: "Blanco y Negro",
+      gender: "Novelas de amor",
+      year: "2021",
+    },
+    {
+      cover:
+        "https://images.cdn1.buscalibre.com/fit-in/360x360/ea/1f/ea1fc691874fa49ce341d876a981e2c1.jpg",
+      title: "Crimen y castigo",
+      autor: "Fiódor Dostoyevski",
+      editorial: "Skla",
+      gender: "Ficción Literaria",
+      year: "2017",
+    },
+  ],
+};
