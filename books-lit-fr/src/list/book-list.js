@@ -48,14 +48,7 @@ class BookList extends LitElement {
         />
       </div>
       <div class="book-container">
-        ${this.books.map(
-          (book) => html`
-            <book-card
-              @click=${() => this.onclick(book)}
-              .book=${book}
-            ></book-card>
-          `
-        )}
+        ${this.books.map((book) => html`<book-card @click=${() => this.onclick(book)}.book=${book}></book-card>`)}
       </div>
     `;
   }
