@@ -3,7 +3,8 @@
 
   window.CellsPolymer.start({
     routes: {
-      'dashboard': '/'
+      'dashboard': '/',
+      'detail': '/detail'
     }
   });
 }(document));
