@@ -20,7 +20,7 @@ class BookList extends LitElement {
 
   onclick(book) {
     let event = new CustomEvent("book-clicked", {
-      detail: book.title,
+      detail: book,
     });
     this.dispatchEvent(event);
   }
