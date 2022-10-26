@@ -18,19 +18,22 @@ class DahsboardPage extends CellsPage {
     super();
   }
 
+  detailPage({ detail }) {
+    this.publish("book_picked_channel", detail);
+    this.navigate("detail");
+  }
+
   render() {
     return html` <cells-template-paper-drawer-panel mode="seamed">
       <div slot="app__header"></div>
-      
+
       <div slot="app__main" class="container">
         <book-list
-          .books=${data.results}
+          @book-clicked=${this.detailPage} .books=${data.results}
         ></book-list>
       </div>
     </cells-template-paper-drawer-panel>`;
   }
-
-  
 }
 
 window.customElements.define(DahsboardPage.is, DahsboardPage);
