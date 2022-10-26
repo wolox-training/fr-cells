@@ -8,6 +8,23 @@ export default css`
     margin: 0px;
   }
 
+  .redirect {
+    margin-bottom: 30px;
+  }
+
+  .redirect-back {
+    color: #000;
+    font-size: 20px;
+    margin: 30px;
+    text-decoration: none;
+  }
+
+  .redirect-back::before {
+    content: url(/app/resources/img/back-arrow.png);
+    height: 20px;
+    width: 20px;
+  }
+
   .card {
     background-color: #fff;
     border-radius: 5px;
@@ -23,6 +40,16 @@ export default css`
     margin-right: 52px;
     align-items: center;
     justify-content: center;
+    position: relative;
+  }
+
+  .img-container::after {
+    bottom: 300px;
+    content: url(/app/resources/img/badge.png);
+    left: 200px;
+    max-width: 100%;
+    position: absolute;
+    transform: rotate(1deg);
   }
 
   .book-cover {
@@ -39,7 +66,6 @@ export default css`
   .book-title-container {
     border: 1px;
     display: inline-block;
-
     text-align: justify;
   }
 
