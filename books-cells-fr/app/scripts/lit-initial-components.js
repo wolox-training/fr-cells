@@ -9,3 +9,4 @@ import '@cells-components/coronita-icons';
 import '../elements/list/book-list';
 import '../elements/card/book-card';
 import '../elements/detail/book-detail';
+import '../elements/input/book-input';
